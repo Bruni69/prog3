@@ -1,0 +1,55 @@
+* {                                             /*aplica un box-sizing a todos los elementos para facilitar el diseño*/
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+:root {
+    --bgColor: #f4f4f4; 
+    --bgColorOscuro: #333; 
+    --colorTexto: #fff; 
+    --colorTextoOscuro: #333; 
+    --colorBanner: #ff5733; 
+    --shadow: 0px 0px 10px rgba(0,0,0,.4);
+    --max-width: 2000px;
+    --border-radius:16px;
+}
+body{
+    background-color: var(--bgColor);
+    line-height: 1.5;
+}
+header{
+    background-color: var(--bgColorOscuro);
+    padding: 0.4rem;
+}
+.contenedor__nav {
+    display:flex;
+    color: var(--colorTexto);
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+.nav__title {
+font-size: 2rem;
+}
+.nav__lista{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+.nav__links{
+    text-decoration: none;
+    color: var(--colorTexto);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;.
+    padding: 0.4rem;
+    font-size: 1.2rem;
+}
+.nav__links:hover{
+    transition: 0.3s ease;
+    background-color: #555;
+    border-radius: var(--border-radius);
+}
