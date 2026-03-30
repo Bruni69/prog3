@@ -1,6 +1,6 @@
 # 🌐 Programación III: Desarrollo Web Full Stack (UTN)
 
-Este repositorio es el espacio dedicado a la entrega y seguimiento de los trabajos prácticos de la materia **Programación III** de la Tecnicatura Universitaria en Programación a Distancia [cite: 5, 2025-11-28]. Aquí se documenta mi evolución desde las bases de la maquetación hasta el desarrollo de aplicaciones dinámicas.
+Este repositorio es el espacio dedicado a la entrega y seguimiento de los trabajos prácticos de la materia **Programación III** de la Tecnicatura Universitaria en Programación a Distancia. Aquí se documenta mi evolución desde las bases de la maquetación hasta el desarrollo de aplicaciones dinámicas.
 
 ## 🚀 Hoja de Ruta del Repositorio
 
