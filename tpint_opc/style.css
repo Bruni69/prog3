@@ -158,6 +158,9 @@ footer{
     }
 .nav__lista{
     display: none;
-    cursor: pointer;
+    }
+    .nav__taggleMobile{
+        display: block;
+        cursor: pointer;
     }
 }
