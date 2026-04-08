@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico JavaScript</title>
+</head>
+
+<body>
+        <header>
+            <h1 style="display: flex; align-items: center; gap: 10px;">
+        
+        <img src="https://em-content.zobj.net/source/microsoft/379/pizza_1f355.png" 
+            alt="Pizza Slice Icon" 
+            style="height: 1.2em; width: auto; vertical-align: middle;">
+
+            <span>Food Store</span>
+
+            </h1>
+        
+            <nav>    
+                    <ul>
+                        <li> <a href="#"> Inicio</a></li>
+                        <li> <a href="#">Mis Pedidos</a></li>
+                        <li> <a href="#">Carrito</a></li>
+                        <li> <a href="admin.html">Panel Admin</a></li>
+                    </ul>
+            </nav>
+        </header>    
+    <hr>
+        
+        <aside>
+            <h3><b>Categorías</b></h3>
+            <ul id="lista-categorias"></ul>
+        </aside>
+
+        <main>
+            <section>
+                <form action="#" style="display: flex; align-items: center; gap: 10px;">
+                    <label for="Buscar">Buscar Productos:</label>
+                    <input type="text" id="Buscar" name="Buscar " placeholder="Ej: Hamburguesa...">
+                    <button type="submit">Buscar</button>
+                </form>    
+            </section>    
+    
+        <h2> <b>Productos Destacados</b></h2>
+        <section id="productos-destacados"></section>
+    </main>
+   <footer>
+        <p>&copy 2024 Food Store. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto" target="_blank">info@foodstore.com</a></p>
+    </footer>
+    <script src="./js/data.js"></script>    //Carga de datos mediante un archivo externo 
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

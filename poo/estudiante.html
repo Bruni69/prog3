@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio JS - Programación III</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header__title">Mi Primera Página con JS</h1>
+    </header>
+
+    <main class="contenedor">
+        <section class="formulario">
+            <p class="formulario__instruccion">Introducí tus datos para ver el resultado en la consola:</p>
+            
+            <div class="formulario__grupo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Escribí tu nombre...">
+            </div>
+
+            <div class="formulario__grupo">
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" placeholder="Escribí tu edad...">
+            </div>
+
+            <button id="btn-ejecutar" class="btn">Enviar a Consola</button>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
