@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store</title>
+</head>
+<body>
+    <header>
+        <h1>🍕 Food Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Mis Pedidos</a></li>
+                <li><a href="#">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <aside>
+        <h3><b>Categorías</b></h3>
+        <ul id="lista-categorias"></ul>
+    </aside>
+
+    <main>
+        <section>
+            <form action="#" style="display: flex; align-items: center; gap: 10px;">
+                <label for="Buscar">Buscar Productos:</label>
+                <input type="text" id="Buscar" name="Buscar" placeholder="Ej: Hamburguesa...">
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <h2><b>Productos Destacados</b></h2>
+        <section id="productos-destacados"></section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Food Store. Todos los derechos reservados.</p>
+    </footer>
+
+    <script type="module" src="./home.ts"></script>
+</body>
+</html>
