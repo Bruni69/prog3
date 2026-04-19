@@ -11,35 +11,27 @@
         <nav>
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Mis Pedidos</a></li>
-                <li><a href="#">Carrito</a></li>
+                <li><a href="../cart/cart.html">Carrito</a></li>
             </ul>
         </nav>
     </header>
     <hr>
-
     <aside>
         <h3><b>Categorías</b></h3>
         <ul id="lista-categorias"></ul>
+        <button id="Todos">Todos los productos</button>
     </aside>
-
     <main>
         <section>
-            <form action="#" style="display: flex; align-items: center; gap: 10px;">
-                <label for="Buscar">Buscar Productos:</label>
-                <input type="text" id="Buscar" name="Buscar" placeholder="Ej: Hamburguesa...">
-                <button type="submit">Buscar</button>
-            </form>
+            <label for="Buscar">Buscar Productos:</label>
+            <input type="text" id="Buscar" placeholder="Ej: Hamburguesa...">
         </section>
-
         <h2><b>Productos Destacados</b></h2>
         <section id="productos-destacados"></section>
     </main>
-
     <footer>
         <p>&copy; 2024 Food Store. Todos los derechos reservados.</p>
     </footer>
-
     <script type="module" src="./home.ts"></script>
 </body>
 </html>

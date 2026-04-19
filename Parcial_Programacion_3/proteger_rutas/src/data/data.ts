@@ -6,7 +6,7 @@ export const productos: IProduct[]=[
         descripcion:"Triple de carne, cheddar y bacon",
         precio: 25000,
         imagen: "./assets/hamburguesa.png",
-        categoria: "Hamburguesa"
+        categoria: "Hamburguesas"
     },
     { 
          id:2,
@@ -32,8 +32,10 @@ export const productos: IProduct[]=[
         descripcion:"Gaseosa linea Pepsi",
         precio: 5000,
         imagen: "./assets/lima.png",
-        categoria: "Bebida"
+        categoria: "Bebidas"
 
     }
-   
-]  
+];
+
+export const categorias: string[] = ["Hamburguesas", "Pizzas", "Papas Fritas", "Bebidas"];
+
